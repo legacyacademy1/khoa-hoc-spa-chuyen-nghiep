@@ -1,0 +1,7 @@
+- pipeline: khoa_hoc_spa_chuyen_nghiep
+  name: khoa-hoc-spa-chuyen-nghiep
+  refs:
+  - refs/heads/main
+  events:
+  - type: PUSH
+  fail_on_prepare_env_warning: true
